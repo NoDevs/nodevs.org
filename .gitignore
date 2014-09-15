@@ -1,0 +1,7 @@
+# directories to ignore
+.sass-cache
+/vendor
+
+# files to ignore
+composer.lock
+.env.php
