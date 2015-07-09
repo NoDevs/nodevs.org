@@ -82,6 +82,7 @@
             display: flex;
             justify-content: center;
             margin: 0;
+            padding: 1rem;
             text-align: center;
         }
 
@@ -115,7 +116,7 @@
         }
 
         .outer-border {
-            border: 1rem solid #48fbba;
+            border: 0.75rem solid #48fbba;
             border-radius: 100%;
             border-left-color: transparent;
             height: 100%;
@@ -132,7 +133,7 @@
 
         .inner-border {
             align-items: center;
-            border: 1rem solid #222;
+            border: 0.75rem solid #222;
             border-radius: 100%;
             border-right-color: transparent;
             display: flex;
@@ -148,6 +149,12 @@
             animation: clockwise 2.5s linear infinite;
             -moz-animation: clockwise 2.5s linear infinite;
             -webkit-animation: clockwise 2.5s linear infinite;
+        }
+
+        @media all and (min-width: 30rem) {
+            .outer-border, .inner-border {
+                border-width: 1rem;
+            }
         }
     </style>
 </head>
