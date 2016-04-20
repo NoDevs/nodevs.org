@@ -1,0 +1,121 @@
+*
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    /* Positioning */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    /* Spacing */
+    margin: 0;
+
+    /* Font Styles */
+    color: #4f4f4f;
+    font-family: 'comfortaa';
+}
+
+a, a:hover, a:active, a:focus, a:visited
+{
+    /* Shaping */
+    display: block;
+
+    /* Design */
+    background-color: #fb6648;
+
+    /* Font Styles */
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-container
+{
+    max-width: 50rem;
+}
+
+.brand
+{
+    /* Spacing */
+    margin: 0 0 4rem 0;
+
+    /* Font Styles */
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 4rem;
+}
+
+.brand .logo
+{
+    /* Shaping */
+    max-width: 20rem;
+    width: 100%;
+}
+
+.category
+{
+    /* Spacing */
+    margin: 1rem 0;
+
+    /* Font Styles */
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.resources-container
+{
+    /* Positioning */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resources-container .block
+{
+    /* Positioning */
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Shaping */
+    max-width: 100%;
+    min-width: 50%;
+
+    /* Spacing */
+    margin: auto;
+}
+
+.resources-container .resource
+{
+    /* Shaping */
+    height: 12rem;
+    width: 12rem;
+
+    /* Spacing */
+    margin: auto;
+    padding: 0.25rem;
+
+    /* Font Styles */
+    letter-spacing: 1px;
+}
+
+.resources-container .resource a
+{
+    /* Positioning */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Shaping */
+    height: 100%;
+    width: 100%;
+}
